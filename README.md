@@ -101,14 +101,12 @@ Auth_Wiki is a library of authentication code that allows users register, downlo
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Python][Python.org]][Python-url]
-* [![Django][Djangoproject.com]][Django-url]
-* [![Google][Google.com]][Google-url]
-* [![Figma][Figma.com]][Figma-url]
-* [![Github][Github.com]][Github-url]
-* [![Git][Git-scm.com]][Github-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* Python
+* Django
+* [![Figma
+* Git
+* Bootstrap
+* JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -288,15 +286,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: images/screenshot.png
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-[Django]: https://img.shields.io/badge/django-badge-brightgreen
-[Django-url]: https//djangoproject.com
-[Git]: https://img.shields.io/badge/GIT-badge-red
-[Git-url]: https://git-scm.com
-[Github]: https://img.shields.io/badge/Github-badge-blue
-[Github-url]: https://github.com
-[Python]: https://img.shields.io/badge/Python-badge-brightgreen
-[Python-url]: https://python.org
-[Figma]: https://img.shields.io/badge/Figma-badge-red
-[Figma-url]: https://figma.com
