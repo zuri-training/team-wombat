@@ -30,11 +30,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/zuri-training/team-wombat.git">
+    <img src="images/crona_icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Auth-Wiki</h3>
 
   <p align="center">
 <a><strong>Wombat - A Wiki-Auth Web Application like library of authentication code that allows users register, download material and interact.</strong></a>
@@ -76,7 +76,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Wombat is a library of authentication code that allows users register, download material and interact.
+Auth_Wiki is a library of authentication code that allows users register, download material and interact.
 
 ## Features
 
@@ -92,7 +92,6 @@ Wombat is a library of authentication code that allows users register, download 
   - Able to view example usage.
   - Download code samples.
 
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +178,7 @@ python manage.py runserver
 ## Usage
 
 * When website is up and running, insert it function here
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://docs.google.com/document/d/1JMyK4SDO66Tbe5y-eS7xEj1emh6zOdzANvlfLntgP5Y/edit?usp=sharing)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +195,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Chinese
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+<!--See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
