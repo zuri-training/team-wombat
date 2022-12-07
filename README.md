@@ -270,13 +270,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/zuri-training/team-wombat.svg?style=for-the-badge
 [contributors-url]: https://github.com/zuri-training/team-wombat/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/zuri-training/team-wombat.svg?style=for-the-badge
 [forks-url]: https://github.com/zuri-training/team-wombat/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/zuri-training/team-wombat.svg?style=for-the-badge
 [stars-url]: https://github.com/zuri-training/team-wombat/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/zuri-training/team-wombat.svg?style=for-the-badge
 [issues-url]: https://github.com/zuri-training/team-wombat/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/zuri-training/team-wombat.svg?style=for-the-badge
 [license-url]: https://github.com/zuri-training/team-wombat/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
