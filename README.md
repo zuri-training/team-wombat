@@ -268,7 +268,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github.com/zuri-training/team-wombat/graphs/contributors.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/zuri-training/team-wombat.svg?style=for-the-badge
 [contributors-url]: https://github.com/zuri-training/team-wombat/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/zuri-training/team-wombat/network/members
@@ -280,6 +280,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [license-url]: https://github.com/zuri-training/team-wombat/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/ScreenScreenshot.jpg
+[product-screenshot]: images/SharedScreenshot.jpg
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
