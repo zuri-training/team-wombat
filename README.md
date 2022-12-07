@@ -18,12 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Contributors][contributors-shield]][https://github.com/zuri-training/team-wombat/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/zuri-training/team-wombat/network/members]
+[![Stargazers][stars-shield]][https://github.com/zuri-training/team-wombat/stargazers]
+[![Issues][issues-shield]][https://github.com/zuri-training/team-wombat/issues]
+[![MIT License][license-shield]][https://github.com/zuri-training/team-wombat/blob/master/LICENSE.txt
+team-wombat]
 
 
 
@@ -37,7 +37,7 @@
   <h3 align="center">Auth-Wiki</h3>
 
   <p align="center">
-<a><strong>Wombat - A Wiki-Auth Web Application like library of authentication code that allows users register, download material and interact.</strong></a>
+<a><strong>A web Application for a library of authentication code that allows users register, download material or codes and interact.</strong></a>
    </p>
 </div>
 
@@ -103,7 +103,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * Python
 * Django
-* [![Figma
+* Figma
 * Git
 * Bootstrap
 * JavaScript
@@ -205,9 +205,9 @@ _For more examples, please refer to the [Documentation](https://docs.google.com/
 Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/team-wombat`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin feature/team-wombat`)
 5. Open a Pull Request
 
 See [CONTRIBUTING.md](https://github.com/zuri-training/team-wombat/blob/master/CONTRIBUTING.md) for more details
@@ -254,8 +254,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
@@ -283,6 +281,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/ScreenScreenshot
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
