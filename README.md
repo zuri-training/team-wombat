@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/zuri-training/team-wombat/graphs/contributors]
+[![https://github.com/zuri-training/team-wombat/graphs/contributors][contributors-shield]][]
 [![Forks][forks-shield]][https://github.com/zuri-training/team-wombat/network/members]
 [![Stargazers][stars-shield]][https://github.com/zuri-training/team-wombat/stargazers]
 [![Issues][issues-shield]][https://github.com/zuri-training/team-wombat/issues]
