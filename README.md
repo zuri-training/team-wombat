@@ -33,7 +33,7 @@
     <img src="images/crona_icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Auth-Wiki</h3>
+  <h1 align="center">Auth-Wiki</h1>
 
   <p align="center">
 <a><strong>A web Application for a library of authentication code that allows users register, download material or codes and interact.</strong></a>
@@ -268,7 +268,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github.com/zuri-training/team-wombat/graphs/contributors.svg?style=for-the-badge
 [contributors-url]: https://github.com/zuri-training/team-wombat/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/zuri-training/team-wombat/network/members
