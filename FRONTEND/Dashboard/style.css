@@ -182,9 +182,8 @@ a:hover {
 #second .box3 {
 	background-color: #156c7f;
 	padding-top: 30px;
-	border-radius: 8px;
-}
-
+	border-radius:8px;}
+  
 #third {
 	display: flex;
 	justify-content: space-around;
