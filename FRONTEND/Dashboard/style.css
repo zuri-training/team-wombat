@@ -48,6 +48,8 @@ body {
 	margin-left: 25px;
 	margin-top: 10px;
 	color: #0d1848;
+	font-size: 16px;
+	font-weight: 500;
 
 	text-align: center;
 	padding-left: 20px;
@@ -153,6 +155,10 @@ a:hover {
 	padding: 45px;
 	height: 100%;
 }
+.box2 img {
+	width: 80px;
+	height: 80px;
+}
 
 .box2 li {
 	flex-direction: column;
@@ -182,8 +188,9 @@ a:hover {
 #second .box3 {
 	background-color: #156c7f;
 	padding-top: 30px;
-	border-radius:8px;}
-  
+	border-radius: 8px;
+}
+
 #third {
 	display: flex;
 	justify-content: space-around;
@@ -222,4 +229,116 @@ a:hover {
 	padding: 10px;
 	border-radius: 8px;
 	text-decoration: none;
+}
+@media only screen and (max-width: 650px) {
+	* {
+		width: 100%;
+	}
+	#topnav a {
+		text-decoration: none;
+		margin-left: 1px;
+		margin-top: 1px;
+		color: #0d1848;
+		padding: 1px;
+		font-size: x-small;
+		font-weight: 200;
+	}
+	#topnav {
+		display: flex;
+		color: #0d1848;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 60px;
+		position: relative;
+		/* overflow: hidden; */
+	}
+	.search {
+		display: flex;
+		margin: 1px;
+		margin-left: 10px;
+
+		border: 1px solid #0d1848;
+		border-radius: 8px;
+		padding: 2px;
+		padding-left: 10px;
+	}
+	.search input {
+		border: none;
+		border-right: none;
+		border-radius: 5px;
+		padding: 2px;
+		background-color: #d7dbff;
+	}
+	.search button {
+		border: none;
+		background-color: #d7dbff;
+		padding-left: 1px;
+	}
+	#profile a {
+		padding: 15px;
+		justify-self: center;
+	}
+	#main {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+	}
+	#sidebar {
+		height: 100vh;
+		width: 100%;
+		/* z-index: 1; */
+		/* overflow-x: hidden; */
+		margin: auto;
+		margin-top: 20px;
+		font-size: small;
+	}
+	#dashboard {
+		background-color: #ffffff;
+		width: 80vw;
+		height: 125vh;
+		border-radius: 20px;
+		padding: 15px;
+		color: #ffffff;
+		margin: 5px;
+	}
+	#first {
+		padding: 10px;
+	}
+	#first .box1 {
+		background-color: #121955;
+		border-radius: 15px;
+		width: 60%;
+		margin-right: 10px;
+		border: 1px solid black;
+		font-size: small;
+	}
+
+	#first .box2 {
+		background-color: #d7dbff;
+		border-radius: 15px;
+		color: #0d1848;
+		align-items: flex-start;
+		display: block;
+		width: 40%;
+		margin-left: 10px;
+		padding: 20px;
+		height: 100%;
+	}
+
+	.box2 li {
+		list-style: none;
+	}
+	.box2 img {
+		width: 70px;
+		height: 70px;
+	}
+	#second {
+		display: flex;
+		width: 100%;
+		height: 150px;
+		padding: 10px;
+		text-align: center;
+		font-size: small;
+	}
 }
