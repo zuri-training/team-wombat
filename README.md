@@ -224,7 +224,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-##Active Contributors Contact
+## Active Contributors Contact
 
 <details><summary>Product Designers</summary>
 
