@@ -186,9 +186,9 @@ _For more examples, please refer to the [Documentation](https://docs.google.com/
 
 - [x] Design And Documentation
 - [x] Frontend Build
-- [ ] Backend Build
-- [ ] Testing
-- [ ] Server Hosting
+- [x] Backend Build
+- [x] Testing
+- [x] Server Hosting
     - [ ] Product Feedback
     - [ ] Changelog
 
@@ -224,7 +224,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+##Active Contributors Contact
 
 <details><summary>Product Designers</summary>
 
