@@ -26,75 +26,95 @@
                     <img src="{% static 'assets/img/new_entries_icon.png' %}" class="img-fluid" alt="computer_login image">
                 </div>
                 <div class="col-lg-7 form-frame vstack gap-3">
-                    <form class="form-box" method="POST">
-                      {% csrf_token %}
-                      {% if form.errors %}
-                                    <div class="alert alert-danger alert-dismissible" role="alert">
-                                        <div id="form_errors">
-                                            {% for key, value in form.errors.items %}
-                                                <strong>{{ value }}</strong>
-                                            {% endfor %}
-                                        </div>
-                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                {% endif %}
-                        <h2 class="h2">Create An Account</h2>
-                        <div class="form-row">
-                            <div class="col-lg-7 field">
-                                <!--<input type="text" placeholder="First Name" class="form-control pt-3">-->
-                                {{ form.first_name }}
-                            </div>
-                            <div class="col-lg-7 field">
-                                <!--<input type="text" placeholder="Surname" class="form-control pt-3">-->
-                                {{ form.last_name }}
-                            </div>
-                            <div class="col-lg-7 field">
-  <!--<input type="username" placeholder=" User Name" class="form-control pt-3">-->
-  {{ form.username }}
-</div>
-                                                          <div class="col-lg-7 field">
-                                <!--<input type="email" placeholder="Email-Address" class="form-control pt-3">-->
-                                {{ form.email }}
-                            </div>
-                        </div>
-                        <div class="col-lg-7 field">
-                            <!--<input type="password" placeholder="password" class="form-control pt-3">-->
-                            {{ form.password1 }}
-                                            {{ form.errors.password }}
-                        </div>
-                        <div class="col-lg-7 field">
-                            <!--<input type="password" placeholder="re-type password" class="form-control pt-3">-->
-                            {{ form.password2 }}
-                        </div>
-                        <div class="col-lg-7 field">
-                            <button type="submit" class="btn1">Sign Up</button>
+                  <form class="form-box" action="#" method="POST">
+                    {% csrf_token %}
+                              {% if form.errors %}
+                                  <div class="alert alert-danger alert-dismissible" role="alert">
+                                      <div id="form_errors">
+                                          {% for key, value in form.errors.items %}
+                                              <strong>{{ value }}</strong>
+                                          {% endfor %}
+                                      </div>
+                                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button>
+                                  </div>
+                              {% endif %}
+            <h2 class="h2">Create An Account</h2>
+            <div class="form-row">
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="text"
+                  placeholder="First Name"
+                  class="form-control pt-3" />-->
+                  {{ form.first_name }}
+              </div>
 
-                        </div>
-
-                        <a href="{% url 'userapp:password_reset' %}" class="forgot-password my-2 link-danger">Forgot password?</a>
-                        <div class="vstack">
-                            <h4 class="">or</h4>
-                            <div class="hstack gap-3">
-                                <div>
-
-                                    <button type="button" class="btn btn-outline-secondary">
-                                        <i class="fa-brands fa-google"></i>
-                                        <p>Log in with Google</p>
-                                    </button>
-                                </div>
-                                <div>
-
-                                    <button type="button" class="btn btn-outline-secondary">
-                                        <i class="fa-brands fa-github"></i>
-                                        <p>Log in with Github</p>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="p-tag">Do you have an account already? <a href="{% url 'userapp:login' %}"  class="">Log in</a></p>
-                    </form>
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="text"
+                  placeholder="Surname"
+                  class="form-control pt-3" />-->
+                  {{ form.last_name }}
+              </div>
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="username"
+                  placeholder="Username"
+                  class="form-control pt-3" />-->
+                  {{ form.username }}
+              </div>
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="email"
+                  placeholder="Email-Address"
+                  class="form-control pt-3" />-->
+                  {{ form.email }}
+              </div>
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="password"
+                  placeholder="******"
+                  class="form-control pt-3" />-->
+                  {{ form.password1 }}
+                  {{ form.errors.password }}
+              </div>
+              <div class="col-lg-7 field">
+                <!--<input
+                  type="password"
+                  placeholder="******"
+                  class="form-control pt-3" />-->
+              {{ form.password2 }}
+            </div>
+            <div class="form-row">
+              <div class="col-lg-7 field">
+                <button type="submit" class="btn1">Sign Up</button>
+              </div>
+            </div>
+            <a href="#" class="forgot-password my-2 link-danger"
+              >Forgot password?</a
+            >
+            <div class="vstack">
+              <h4 class="">or</h4>
+              <div class="hstack gap-3">
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fa-brands fa-google"></i>
+                    <p>Log in with Google</p>
+                  </button>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">
+                    <i class="fa-brands fa-github"></i>
+                    <p>Log in with Github</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p class="p-tag">
+              Do you have an account already? <a href="{% url 'userapp:login'%}" class="">Log in</a>
+            </p>
+          </form>
                 </div>
             </div>
         </div>

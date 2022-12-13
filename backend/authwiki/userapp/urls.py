@@ -1,5 +1,5 @@
-from django.contrib import admin
 from django.urls import path, include, re_path
+
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -8,14 +8,14 @@ from userapp.views import CustomLoginView, ResetPasswordView, ChangePasswordView
 
 from userapp.forms import LoginForm
 
-from . import views
+from home.views import homeview
 from .views import profile, RegisterView
+
 app_name = 'userapp'
 
 urlpatterns = [
-    #path('register/', views.registerview, name='register'),
-    #path('login/', views.loginview, name='login'),
-    path('login/', CustomLoginView.as_view(redirect_authenticated_user=True, template_name='home/login.html',
+
+        path('login/', CustomLoginView.as_view(redirect_authenticated_user=True, template_name='home/login.html',
                                            authentication_form=LoginForm), name='login'),
      path('logout/', auth_views.LogoutView.as_view(template_name='home/logout.html'), name='logout'),
 
@@ -35,4 +35,8 @@ urlpatterns = [
 
      path('register/', RegisterView.as_view(), name='register'),
     path('profile/', profile, name='profile'),
-    ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+     #path('', home, name='userapp-home'),
+     path('', homeview, name='home-home'),
+
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

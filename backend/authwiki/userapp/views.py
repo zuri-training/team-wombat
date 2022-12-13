@@ -1,13 +1,19 @@
 from django.shortcuts import render, redirect
-from django.contrib import messages
-from django.contrib.messages.views import SuccessMessageMixin
+
 from django.urls import reverse_lazy
 from django.contrib.auth.views import LoginView, PasswordResetView, PasswordChangeView
-from django.contrib.auth.decorators import login_required
+from django.contrib import messages
+from django.contrib.messages.views import SuccessMessageMixin
 from django.views import View
+from django.contrib.auth.decorators import login_required
+
 from .forms import RegisterForm, LoginForm, UpdateUserForm, UpdateProfileForm
 
+
 # Create your views here.
+def home(request):
+    return render(request, 'home/home.html')
+
 
 class RegisterView(View):
     form_class = RegisterForm
@@ -35,8 +41,7 @@ class RegisterView(View):
             username = form.cleaned_data.get('username')
             messages.success(request, f'Account created for {username}')
 
-            #return redirect(to='login')
-            return redirect (login.html)
+            return redirect(to='userapp:login')
 
         return render(request, self.template_name, {'form': form})
 
@@ -58,8 +63,6 @@ class CustomLoginView(LoginView):
         # else browser session will be as long as the session cookie time "SESSION_COOKIE_AGE" defined in settings.py
         return super(CustomLoginView, self).form_valid(form)
 
-def loginview(request):
-    return render(request, 'home/login.html')
 
 class ResetPasswordView(SuccessMessageMixin, PasswordResetView):
     template_name = 'home/password_reset.html'
@@ -70,6 +73,7 @@ class ResetPasswordView(SuccessMessageMixin, PasswordResetView):
                       " If you don't receive an email, " \
                       "please make sure you've entered the address you registered with, and check your spam folder."
     success_url = reverse_lazy('home-home')
+
 
 class ChangePasswordView(SuccessMessageMixin, PasswordChangeView):
     template_name = 'home/change_password.html'
