@@ -26,61 +26,8 @@
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
 
-
-
-/*-------------------------------------------------------------------*/
-/* === Boostrap Main SCSS === */
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
-  --blue: #5E50F9;
-  --indigo: #6610f2;
-  --purple: #6a008a;
-  --pink: #E91E63;
-  --red: #f96868;
-  --orange: #f2a654;
-  --yellow: #f6e84e;
-  --green: #46c35f;
-  --teal: #58d8a3;
-  --cyan: #57c7d4;
-  --white: #ffffff;
-  --gray: #6c757d;
-  --gray-dark: #0f1531;
-  --blue: #5E50F9;
-  --indigo: #6610f2;
-  --purple: #6a008a;
-  --pink: #E91E63;
-  --red: #f96868;
-  --orange: #f2a654;
-  --yellow: #f6e84e;
-  --green: #46c35f;
-  --teal: #58d8a3;
-  --cyan: #57c7d4;
-  --white: #ffffff;
-  --gray: #434a54;
-  --gray-light: #aab2bd;
-  --gray-lighter: #e8eff4;
-  --gray-lightest: #e6e9ed;
-  --black: #000000;
-  --primary: #3c37f1;
-  --secondary: #1998ff;
-  --success: #00d663;
-  --info: #00b3ff;
-  --warning: #ffe671;
-  --danger: #ff696d;
-  --light: #506690;
-  --dark: #000000;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
 }
 
 /* core syling */
@@ -103,7 +50,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -251,7 +198,7 @@ input[type="month"] {
 }
 
 
-/* 
+/*
 progress {
   vertical-align: baseline;
 }
@@ -770,7 +717,7 @@ pre code {
   .order-sm-12 {
     order: 12;
   }
- 
+
 }
 
 @media (min-width: 992px) {
@@ -832,7 +779,7 @@ pre code {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  
+
 }
 
 @media (min-width: 1200px) {
@@ -939,7 +886,7 @@ pre code {
   .order-xl-12 {
     order: 12;
   }
-  
+
 }
 
 
@@ -2088,7 +2035,7 @@ input[type="button"].btn-block {
   position: relative;
   flex: 1 1 auto;
 }
-/* 
+/*
 .btn-group > .btn:hover,
 .btn-group-vertical > .btn:hover {
   z-index: 1;
@@ -2194,7 +2141,7 @@ input[type="button"].btn-block {
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
 } */
-/* 
+/*
 .input-group {
   position: relative;
   display: flex;
@@ -3273,19 +3220,6 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-#projects{
-  margin: 10% 0;
-}
-#projects .projects-box{
-  
-  width: 20rem;
-  padding: 1.25rem;
-
-  background: #D7DBFF;
-  border: 0.824543px solid #AABBC4;
-  border-radius: 0px 0px 61.8408px 0px;
-}
-
 
 /* .card {
   position: relative;
@@ -3436,7 +3370,7 @@ input[type="button"].btn-block {
 .card-group > .card {
   margin-bottom: 15px;
 } */
-/* 
+/*
 @media (min-width: 576px) {
   .card-group {
     flex-flow: row wrap;
@@ -8474,7 +8408,7 @@ a.text-dark:hover, a.text-dark:focus {
   .navbar {
     display: none;
   }
-  
+
 }
 
 /*-------------------------------------------------------------------*/
@@ -8832,7 +8766,7 @@ h6, .h6 {
 .footer .list-footer li a {
   display: block;
   padding: .625rem 0;
-  color: #7F7F7C; 
+  color: #7F7F7C;
   font-size: 14px;
   color: #e5e5e5;
 }
@@ -9043,8 +8977,39 @@ section {
   }
 }
 
+/* services section */
 .services-box {
   padding: 10px 100px 40px 0;
+}
+.services-box .icon-div{
+  position: relative;
+}
+.our-services .icon-1{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 28px;
+  left: 45px;
+}
+.our-services .icon-2{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 28px;
+  left: 35px;
+}
+.our-services .brand-1{
+  border-radius: 8px;
+  background: #080434;
+  border: none;
+  width: 70%;
+}
+.our-services .brand-2{
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid #080434;
+  color: #080434;
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -9063,93 +9028,127 @@ section {
   -o-transition: all 2s;
   transition: all 2s;
 }
+/* end of services section */
+/* process section */
 
-.tick-icon {
-  width: 20px;
-  height: 20px;
+.our-process{
+  background: #D7DBFF;
+}
+.process{
+  text-align: center;
+  line-height: 200%;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #080434;
+}
+.our-process .process h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+}
+.our-process .process h5{
+  font-size: 20px;
+  line-height: 150%;
+}
+.our-process .process h3{
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 120%;
+}
+.our-process .process p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 36px */
+  text-align: center;
+  white-space: pre-line;
 }
 
-.testimonial {
-  background: #a70ff6 url("../images/testimonial-bg.svg");
-  padding: 100px 0 70px 0;
-  background-size: cover;
+.our-process .process-two .stats{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+}
+.our-process .process-two .stats .stats-inner{
+  flex-basis: 4;
+  gap: 5px;
+}
+.our-process .process-two .stats .p-tag-1{
+  color: #135246;
+  text-align: center;
+}
+.our-process .process-two .stats .p-tag-2{
+  color: #834E00;
+  text-align: center;
+}
+.our-process .process-two .stats .p-tag-3{
+  color: #B81E36;
+  text-align: center;
+}
+.process .framework{
+  flex-basis: 200px;
+  flex-grow: 0;
+
+}
+.process .framework .three{
+  border-radius: 50%;
+}
+.button{
+  margin: 30px 0;
+  border-radius: 8px;
+  text-align: center;
+	width: 200px;
+	height: 50px;
+	background: #0A0798;
+}
+.process-btn .btn-two{
+  display: block;
+  background: transparent;
+  border: 1px solid #0A0798;
+  color: #0A0798;
 }
 
-@media (max-width: 991px) {
-  .testimonial {
-    padding: 20px 0;
-  }
+/* end of process section */
+/* projects section */
+.our-projects{
+  margin: 10% 0;
+}
+.our-projects .projects-box{
+
+  width: 15rem;
+  padding: 1.25rem;
+
+  background: #D7DBFF;
+  border: 0.824543px solid #AABBC4;
+  border-radius: 0px 0px 61.8408px 0px;
 }
 
-.testimonial .testimonial-item {
-  width: 450px;
-  padding: 34px 34px 34px 94px;
-  background: #ffffff;
-  color: #000000;
-  border-radius: 10px;
-  position: relative;
-  box-shadow: 0 20px 70px -10px rgba(109, 121, 141, 0.15);
+.our-projects .projects-box h5{
+ padding: 10px;
+ font-weight: 600;
+ color: #040404;
+}
+.our-projects .projects-box p{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #343434;
 }
 
-@media (max-width: 1024px) {
-  .testimonial .testimonial-item {
-    width: 400px;
-  }
+/* end of project section */
+
+/* community section */
+
+/* end of community section */
+
+/* contact us sectiom */
+.contact-us{
+  width: 1216px;
+  height: 400px;
+  background: #D7DBFF;
+  border-width: 0 0 4em 8em;
 }
 
-@media (max-width: 991px) {
-  .testimonial .testimonial-item {
-    width: 280px;
-  }
-}
-
-.testimonial .testimonial-item .testimonial-icons {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  position: absolute;
-  top: 40px;
-  left: 28px;
-}
-
-.testimonial .testimonial-item .testimonial-author {
-  margin-top: 1rem;
-  margin-bottom: .5rem;
-  position: relative;
-  font-weight: 500;
-}
-
-.testimonial .testimonial-item .testimonial-author:before {
-  content: "\f756";
-  position: absolute;
-  left: -40px;
-  color: transparent;
-  font-size: 1.75rem;
-  background: url(../images/quote.png) no-repeat;
-}
-
-.testimonial .testimonial-item .testimonial-destination {
-  color: #506690;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-.testimonial .flipster__button--prev {
-  left: auto;
-  right: 0;
-  top: 86%;
-  transform: rotate(270deg);
-}
-
-.testimonial .flipster__button--next {
-  transform: rotate(270deg);
-  top: 78%;
-}
-
-.testimonial .flipster__button svg {
-  width: .75em;
-}
-
+/* end of contact us */
 
 /*-------------------------------------------------------------------*/
 /* === Components === */
@@ -9329,4 +9328,3 @@ section {
 .flipster-custom-nav .flipster-custom-nav-item .flipster-custom-nav-link.active {
   background: #f1efef;
 }
-

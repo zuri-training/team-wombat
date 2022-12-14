@@ -14,7 +14,7 @@ body{
     padding-bottom: 40px;
     padding-left: 30px;
 
-    
+
 }
 
 .b{
@@ -25,7 +25,7 @@ body{
     margin-top: -300px;
     border-radius: 30px;
     padding-bottom: 20px;
-    
+
 }
 
 .auth{
@@ -40,8 +40,8 @@ body{
     font-weight:bolder;
     font-size: 45px;
     position: absolute;
-    
-    
+
+
 }
 
 .search{
@@ -54,12 +54,12 @@ body{
     background-image:url(images/search_icon.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
 
 .back{
     margin-left: 12.3%;
-    
+
 
 }
 
@@ -84,13 +84,13 @@ body{
     display: flex;
     align-items: center;
     position: absolute;
-    
+
 }
 .edit {
     margin-left: 500px;
-    
-     
-    
+
+
+
 }
 
 .feedback{
@@ -99,24 +99,24 @@ body{
     margin-top: -35px;
     display: flex;
     height: 40px;
-    position: absolute;  
+    position: absolute;
     width: 100px;
-    border-radius: 10px;  
-    
+    border-radius: 10px;
+
 }
 
 .feed{
     color: white;
     margin-left: 10px;
     margin-top: 10px;
-    
+
 }
 
 .resources{
     margin-left:  55%;
     margin-top: -5%;
     position: absolute;
-    
+
 }
 
 .side-bar{
@@ -125,9 +125,9 @@ body{
     margin-left: -20px;
     font-family:  ;
     margin-top: 0px;
-    
-    
-     
+
+
+
 }
 
 .post-title1{
@@ -155,11 +155,11 @@ body{
     border-color: #0D1848;
     background-image: url(images/picture_website_essential_app_icon.png), url(images/attach_icon.png), url(images/emoji_add_regular_icon.png);
     background-position: bottom left, top  , right;
-    background-position-x: 1%, 12%, 22% ; 
+    background-position-x: 1%, 12%, 22% ;
     background-position-y: 95%, 95%, 95% ;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    
-    
+
+
 }
 
 
@@ -181,11 +181,10 @@ body{
     font-size: 25px;
     color: #FFFFFF;
     text-decoration: none;
-    
+
 }
 
 .placeholder{
     margin-top: -10px;
-    margin-right: -50px;    
+    margin-right: -50px;
 }
-

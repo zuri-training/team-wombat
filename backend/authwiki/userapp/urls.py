@@ -10,6 +10,8 @@ from userapp.forms import LoginForm
 
 from home.views import homeview
 from .views import profile, RegisterView
+from . import views
+from django.urls import reverse_lazy
 
 app_name = 'userapp'
 
@@ -33,10 +35,10 @@ urlpatterns = [
 
     #re_path(r'^oauth/', include('social_django.urls', namespace='social')),
 
-     path('register/', RegisterView.as_view(), name='register'),
+    path('register/', RegisterView.as_view(), name='register'),
     path('profile/', profile, name='profile'),
+    path('forgotpassword/', views.forgotpassword, name='forgotpassword'),
+    path('emailverification/', views.emailverification, name='emailverification'),
 
-     #path('', home, name='userapp-home'),
-     path('', homeview, name='home-home'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
