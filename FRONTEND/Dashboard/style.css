@@ -18,14 +18,14 @@ body {
 	width: 100%;
 	height: 70px;
 	position: relative;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 /* styling for the search bar */
 .search {
 	display: flex;
 	margin: auto;
 	margin-left: 100px;
-	/* margin-right: 50px; */
+
 	border: 1px solid #0d1848;
 	border-radius: 8px;
 	padding: 2px;
@@ -48,6 +48,8 @@ body {
 	margin-left: 25px;
 	margin-top: 10px;
 	color: #0d1848;
+	font-size: 16px;
+	font-weight: 500;
 
 	text-align: center;
 	padding-left: 20px;
@@ -76,22 +78,19 @@ i {
 	display: flex;
 	width: 100%;
 	height: 100vh;
-	/* margin: auto; */
 }
 #sidebar {
 	height: 100vh;
 	width: 10%;
-	/* z-index: 10; */
+	z-index: 1;
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
 	margin: 20px;
-	/* background-color: black; */
 }
 #sidebar a {
 	text-decoration: none;
 	display: block;
-	/* font-weight: bold; */
 }
 #sidebar a.active {
 	border: 1px black;
@@ -101,36 +100,35 @@ i {
 a:hover {
 	background-color: #ffffff;
 	border-radius: 8px;
-	transition: all;
+	transition-delay: 0.2s;
 }
 
 /* styling for the main dashboard area */
 #dashboard {
 	background-color: #ffffff;
 	width: 80%;
-	height: 104vh;
+	height: 100vh;
 	border-radius: 20px;
 	padding: 15px;
 	color: #ffffff;
+	margin: 15px;
 }
 
 #first {
-	text-align: left;
 	display: flex;
-	padding: 30px;
+	padding: 20px;
 }
 #first .box1 {
 	background-color: #121955;
 	border-radius: 15px;
-	display: flex;
 	width: 60%;
 	margin-right: 30px;
 	border: 1px solid black;
 	height: 100%;
 }
-
-.icon {
-	align-self: flex-start;
+/* this styling helps me flex the image to the right */
+.flexed {
+	display: flex;
 }
 
 .box1 button {
@@ -154,8 +152,12 @@ a:hover {
 	display: flex;
 	width: 40%;
 	margin-left: 30px;
-	padding: 30px;
+	padding: 45px;
 	height: 100%;
+}
+.box2 img {
+	width: 80px;
+	height: 80px;
 }
 
 .box2 li {
@@ -188,44 +190,24 @@ a:hover {
 	padding-top: 30px;
 	border-radius: 8px;
 }
+
 #third {
 	display: flex;
-	width: 100%;
-	height: 200px;
-	padding: 30px;
+	justify-content: space-around;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 20px;
 }
-/* #third .img1 { */
-/* width: 100%;
 
-	margin-right: 15px; */
-/* } */
-/* #third .img2 { */
-/* left: 268px; */
-/* top: 910px; */
-
-/* width: 100%;
-	/* height: 10%; */
-/* margin-left: 30px; */
-/* } */
-
-.done a {
+.done {
+	text-align: center;
+}
+.done button {
 	background-color: #3834ff;
 	width: 100px;
 	height: 30px;
 	color: #ffffff;
-	/* margin: ; */
-	padding: 10px;
 	border-radius: 8px;
-	text-decoration: none;
-	/* text-align: center; */
-
-	/* background-color: #3834ff;
-	width: 100px;
-	height: 30px;
-	color: #ffffff;
-	margin: 40px;
-	padding: 5px;
-	border-radius: 8px; */
 }
 
 #fourth {
@@ -235,7 +217,7 @@ a:hover {
 	border-radius: 8px;
 	margin: 5px;
 	font-size: large;
-	height: 120px;
+	height: 140px;
 }
 
 #fourth a {
@@ -247,4 +229,116 @@ a:hover {
 	padding: 10px;
 	border-radius: 8px;
 	text-decoration: none;
+}
+@media only screen and (max-width: 650px) {
+	* {
+		width: 100%;
+	}
+	#topnav a {
+		text-decoration: none;
+		margin-left: 1px;
+		margin-top: 1px;
+		color: #0d1848;
+		padding: 1px;
+		font-size: x-small;
+		font-weight: 200;
+	}
+	#topnav {
+		display: flex;
+		color: #0d1848;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 60px;
+		position: relative;
+		/* overflow: hidden; */
+	}
+	.search {
+		display: flex;
+		margin: 1px;
+		margin-left: 10px;
+
+		border: 1px solid #0d1848;
+		border-radius: 8px;
+		padding: 2px;
+		padding-left: 10px;
+	}
+	.search input {
+		border: none;
+		border-right: none;
+		border-radius: 5px;
+		padding: 2px;
+		background-color: #d7dbff;
+	}
+	.search button {
+		border: none;
+		background-color: #d7dbff;
+		padding-left: 1px;
+	}
+	#profile a {
+		padding: 15px;
+		justify-self: center;
+	}
+	#main {
+		display: flex;
+		width: 100%;
+		height: 100vh;
+	}
+	#sidebar {
+		height: 100vh;
+		width: 100%;
+		/* z-index: 1; */
+		/* overflow-x: hidden; */
+		margin: auto;
+		margin-top: 20px;
+		font-size: small;
+	}
+	#dashboard {
+		background-color: #ffffff;
+		width: 80vw;
+		height: 125vh;
+		border-radius: 20px;
+		padding: 15px;
+		color: #ffffff;
+		margin: 5px;
+	}
+	#first {
+		padding: 10px;
+	}
+	#first .box1 {
+		background-color: #121955;
+		border-radius: 15px;
+		width: 60%;
+		margin-right: 10px;
+		border: 1px solid black;
+		font-size: small;
+	}
+
+	#first .box2 {
+		background-color: #d7dbff;
+		border-radius: 15px;
+		color: #0d1848;
+		align-items: flex-start;
+		display: block;
+		width: 40%;
+		margin-left: 10px;
+		padding: 20px;
+		height: 100%;
+	}
+
+	.box2 li {
+		list-style: none;
+	}
+	.box2 img {
+		width: 70px;
+		height: 70px;
+	}
+	#second {
+		display: flex;
+		width: 100%;
+		height: 150px;
+		padding: 10px;
+		text-align: center;
+		font-size: small;
+	}
 }
