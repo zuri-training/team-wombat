@@ -12,14 +12,14 @@
 		<link
 			href="https://fonts.googleapis.com/css?family=Roboto"
 			rel="stylesheet" />
-		<link rel="stylesheet" href="{% static'/css/profile.css' %}" />
+		<link rel="stylesheet" href="{% static 'assets/css/profile.css' %}" />
 	</head>
 	<body>
 		<header>
 			<div id="topnav">
 				<img
 					style="width: 50px; height: 50px"
-					src="{% static '/img/crona_icon.png' %}"
+					src="{% static 'assets/img/crona_icon.png' %}"
 					alt="Logo" />
 				<h1>Authwiki</h1>
 				<form action="" class="search">
@@ -28,20 +28,14 @@
 					</button>
 				</form>
 
-				<a
-					href="#"
-					style="font-family: 'Roboto'; font-size: 16px; font-weight: 500"
-					>Resource</a
-				>
-				<a
-					href="#"
-					style="font-family: 'Roboto'; font-size: 16px; font-weight: 500"
+				<a href="#" style="font-family: 'Roboto'">Resource</a>
+				<a href="{% url 'home:feedback' %}" style="font-family: 'Roboto'"
 					>Feedback</a
 				>
 				<i class="fa fa-bell"></i>
 
 				<div id="profile">
-					<img src="{% static '/img/profilepics.jpg' %}" alt="Profile Picture" />
+					<img src="{% static 'assets/img/profile_pics.jpg' %}" alt="Profile Picture" />
 					<a href="#">Edit</a>
 				</div>
 			</div>
@@ -51,15 +45,24 @@
 				<a class="active" href="#"
 					><i class="fa fa-fw fa-book"></i>Get Started</a
 				><br /><br />
-				<a href="#"><i class="fa fa-fw fa-group"></i>Community</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-code"></i>Auth Library</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a
+				<a href="{% url 'home:community' %}"
+					><i class="fa fa-fw fa-group"></i>Community</a
 				><br /><br />
-				<a href="#"><i class="fa fa-fw fa-sitemap"></i>Logs</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-sign-out"></i>Log Out</a><br /><br />
+				<a href="{% url 'home:error' %}"
+					><i class="fa fa-fw fa-code"></i>Auth Library</a
+				><br /><br />
+				<a href="{% url 'home:community3' %}"
+					><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a
+				><br /><br />
+				<a href="{% url 'home:error' %}"
+					><i class="fa fa-fw fa-sitemap"></i>Logs</a
+				><br /><br />
+				<a href="{% url 'userapp:logout' %}"
+					><i class="fa fa-fw fa-sign-out"></i>Log Out</a
+				><br /><br />
 			</div>
 			<div class="form">
-				<form class="inner" action="/FRONTEND/Dashboard/dashboard.html">
+				<form class="inner" action="/FRONTEND/Dashboard/index.html">
 					<label for="firstname">First Name</label><br /><br />
 					<input type="text" name="firstname" id="" /> <br /><br />
 					<label for="lastname">Last Name</label><br /><br />

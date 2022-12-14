@@ -8,11 +8,15 @@ from django.views import View
 from django.contrib.auth.decorators import login_required
 
 from .forms import RegisterForm, LoginForm, UpdateUserForm, UpdateProfileForm
+from django.urls import reverse_lazy
 
 
 # Create your views here.
-def home(request):
-    return render(request, 'home/home.html')
+def forgotpassword(request):
+    return render(request, 'home/forgot_password.html')
+
+def emailverification(request):
+    return render(request, 'home/email_verification.html')
 
 
 class RegisterView(View):

@@ -12,14 +12,14 @@
 		<link
 			href="https://fonts.googleapis.com/css?family=Roboto"
 			rel="stylesheet" />
-		<link rel="stylesheet" href="{% static 'asset/css/dashboard.css' %}" />
+		<link rel="stylesheet" href="{% static 'assets/css/dashboard.css' %}" />
 	</head>
 	<body>
 		<header>
 			<div id="topnav">
 				<img
 					style="width: 40px; height: 30px"
-					src="{% static 'asset/img/crona_icon.png' %}"
+					src="{% static 'assets/img/crona_icon.png' %}"
 					alt="Logo" />
 				<h1>Authwiki</h1>
 				<form action="" class="search">
@@ -29,20 +29,20 @@
 				</form>
 
 				<a
-					href="#"
-					style="font-family: 'Roboto'; font-size: 16px; font-weight: 500"
+					href="{% url 'home:community3' %}"
+					style="font-family: 'Roboto';"
 					>Resource</a
 				>
 				<a
-					href="#"
-					style="font-family: 'Roboto'; font-size: 16px; font-weight: 500"
+					href="{% url 'home:feedback' %}"
+					style="font-family: 'Roboto';"
 					>Feedback</a
 				>
 				<i class="fa fa-bell"></i>
 
 				<div id="profile">
 					<img src="{% static 'assets/img/profile_pics.jpg' %}" alt="Profile Picture" />
-					<a href="#">Edit</a>
+					<a href="{% url 'userapp:profile' %}">Edit</a>
 				</div>
 			</div>
 		</header>
@@ -51,12 +51,12 @@
 				<a class="active" href="#"
 					><i class="fa fa-fw fa-book"></i>Get Started</a
 				><br /><br />
-				<a href="#"><i class="fa fa-fw fa-group"></i>Community</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-code"></i>Auth Library</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a
+				<a href="{% url 'home:community' %}"><i class="fa fa-fw fa-group"></i>Community</a><br /><br />
+				<a href="{% url 'home:error' %}"><i class="fa fa-fw fa-code"></i>Auth Library</a><br /><br />
+				<a href="{% url 'home:error' %}"><i class="fa fa-fw fa-bookmark"></i>Bookmarks</a
 				><br /><br />
 				<a href="#"><i class="fa fa-fw fa-sitemap"></i>Logs</a><br /><br />
-				<a href="#"><i class="fa fa-fw fa-sign-out"></i>Log Out</a><br /><br />
+				<a href="{% url 'userapp:logout' %}"><i class="fa fa-fw fa-sign-out"></i>Log Out</a><br /><br />
 			</div>
 			<div id="dashboard">
 				<div id="first">
@@ -73,9 +73,7 @@
 							<button>Search codes</button>
 					</div>
 					<div class="box2">
-						<img
-							style="width: 80px; height: 80px"
-							src="{% static'assets/img/rona_icon.png' %}"
+						<img src="{% static 'assets/img/crona_icon.png' %}"
 							alt="logo" />
 						<p><ul>
 							<li>Decode</li>
@@ -112,7 +110,7 @@
 <div id="fourth">
 	<p>Check the codes others are recommending, interact and connect with like minds</p><br>
 
-	<a href="">Connect</a>
+	<a href="{% url 'home:community' %}">Connect</a>
 </div>
 			</div>
 
