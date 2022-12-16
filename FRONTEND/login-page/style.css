@@ -45,10 +45,14 @@ body{
     width: 60%;
 
 }
-.field{
+.input-group{
+    display: flex;
     margin-top: 40px;
     width: 100%;
     cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .form-control{
     border: 2px solid rgba(0, 0, 0, 0.2);
