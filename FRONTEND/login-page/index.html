@@ -24,25 +24,31 @@
 			rel="stylesheet" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body>
-		<section class="Form my-4 mx-5">
-			<div class="logo">
+	<body data-target=" " data-offset="50">
+		<div id="mobile-menu-overlay"></div>
+		
+		<section class="row d-flex Form my-4 mx-5">
+			<div class="col-sm-12 logo">
 				<img src="/images/crona_icon.png" alt="logo" />
 				<h1 class="h1">Authwiki</h1>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-5">
-						<img
+			<div class="col-sm-12 container-fluid">
+				<div class="d-sm-flex box justify-content-between align-items-center">
+					<div class="row d-flex img-div">
+						<div class="d-sm-flex">
+							<img
 							src="/images/computer_login.png"
 							class="img-fluid"
 							alt="computer_login image" />
+						</div>
 					</div>
-					<div class="col-lg-7 form-frame vstack gap-3">
+					<div class="row d-flex form-frame gap-3">
 						<form class="form-box" action="/FRONTEND/Succesful page/index.html">
 							<h2 class="h2">Log in ...</h2>
 							<div class="form-row">
-								<div class="col-lg-7 field">
+								
+								<div class="col-sm field pt-3">
+									<label class="pb-2 label">Email Address</label> 
 									<input
 										type="email"
 										placeholder="Email-Address"
@@ -50,7 +56,8 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="col-lg-7 field">
+								<div class="col-sm field pt-4">
+									<label class="pb-2 label">Password</label>
 									<input
 										type="password"
 										placeholder="******"
@@ -58,36 +65,46 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="col-lg-7 field">
+								<div class="col-sm field pt-5">
 									<button type="submit" class="btn1">Login</button>
 								</div>
 							</div>
-							<a
+							
+							<div>
+								<a
 								href="/FRONTEND/Forgot Password/index.html"
 								class="forgot-password my-2 link-danger"
-								>Forgot password?</a
-							>
-							<div class="vstack">
-								<h4 class="">or</h4>
-								<div class="hstack gap-3">
-									<div>
-										<button type="button" class="btn btn-outline-secondary">
-											<i class="fa-brands fa-google"></i>
-											<p>Log in with Google</p>
-										</button>
-									</div>
-									<div>
-										<button type="button" class="btn btn-outline-secondary">
-											<i class="fa-brands fa-github"></i>
-											<p>Log in with Github</p>
-										</button>
+								>Forgot password?</a>
+
+							</div>
+							<div class="d-sm-flex justify-content-center align-items-center my-4 option-div ">
+								<div class="row div-box">
+									<h4 class="col-sm text-center">or</h4>
+									<div class="col-sm gap-3">
+										<div class="d-sm-flex inner-div">
+											<div class="p-tag">
+												<button type="button" class="btn btn-outline-secondary">
+													<i class="fa-brands fa-google"></i>
+													<p class="p2-tag">Log in with Google</p>
+												</button>
+											</div>
+											<div class="p-tag">
+												<button type="button" class="btn btn-outline-secondary">
+													<i class="fa-brands fa-github"></i>
+													<p class="p2-tag">Log in with Github</p>
+												</button>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-							<p class="p-tag">
-								Don't have an account?
-								<a href="/FRONTEND/sign-up/index.html" class="">Sign up</a>
-							</p>
+							<div class="p-tag">
+								<p>
+									Don't have an account?
+									<a href="/FRONTEND/sign-up/index.html" class="">Sign up</a>
+								</p>
+
+							</div>
 						</form>
 					</div>
 				</div>

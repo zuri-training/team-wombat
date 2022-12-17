@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -5,8 +6,10 @@
 }
 body{
     background-color: #D7DBFF;
+    box-sizing: border-box;
 }
 .logo{
+    position: absolute;
     display: flex;
     gap: 10px;
     left: 64px;
@@ -17,17 +20,20 @@ body{
     height: 60px;
     
 }
+.container-fluid{
+     height: 100vh;
+}
 .img-fluid{
-    position: absolute;
-    width: 500px;
-    height: 500px;
+    /* position: absolute; */
+    width: 35rem;
+    height: 35rem;
     left: 128px;
     top: 241px;
 }
 .form-frame{
-    position: absolute;
-    width: 756px;
-    height: 100vh;
+    /* position: absolute; */
+    width: 47.25rem;
+    height: 120vh;
     left: 756px;
     top: 0px;
     background-color: #FFFFFF;
@@ -41,14 +47,26 @@ body{
 .form-box{
     display: flex;
     flex-direction: column;
+    text-align: left;
     height: 70%;
     width: 60%;
 
 }
+.form-row .label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+    width: 100%;
+}
 .field{
-    margin-top: 40px;
+    display: flex;
     width: 100%;
     cursor: pointer;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 .form-control{
     border: 2px solid rgba(0, 0, 0, 0.2);
@@ -71,15 +89,12 @@ body{
     color: black;
 }
 .forgot-password{
-    margin-left: 308px;
+    margin-left: 15rem;
 }
-.vstack{
+.div-box{
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hstack{
-    align-self: center;
+    flex-direction: column;
+    gap: 10px;
 }
 .btn{
     text-align: center;
@@ -90,8 +105,199 @@ body{
 }
 .fa-brands{
     height: 90px;
-
+}
+.p2-tag{
+    font-size: 0.8rem;
 }
 .p-tag{
     text-align: center;
 }
+.p-tag button{
+    height: fit-contents;
+}
+
+/* media queries */
+
+@media (max-width: 576px) {
+    .our-services{
+        display: flex;
+    }
+    .container-fluid{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 8rem;
+        height: 10rem;
+    }
+   .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+  .col-sm {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  .col-sm-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+ 
+  .col-sm-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .box{
+    gap: 10px;
+  }
+  .form-frame{
+    
+    width: 25rem;
+    height: 150vh;
+  }
+
+  .forgot-password{
+    margin-left: 5rem;
+  }
+
+  .p-tag{
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 650px) {
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 30rem;
+        height: 40rem;
+    }
+    .forgot-password{
+        margin-left: 1rem;
+    }
+    .img-fluid{
+        width: 10rem;
+        height: 15rem;
+    }
+    .box{
+        gap: 20px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+  }
+
+@media (max-width: 700px) {
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 30rem;
+        height: 40rem;
+    }
+    .forgot-password{
+        margin-left: 1.5rem;
+    }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+  }
+  
+  @media (max-width: 992px) {
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 35rem;
+        height: 45rem;
+    }
+    .forgot-password{
+        margin-left: 5rem;
+    }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
+
+  @media (max-width: 1200px) {
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 35rem;
+        height: 45rem;
+    }
+    .forgot-password{
+        margin-left: 5rem;
+    }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .p-tag button{
+        height: 3rem;
+    }
+  }

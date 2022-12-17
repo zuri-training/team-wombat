@@ -9114,15 +9114,26 @@ section {
   margin: 10% 0;
 }
 .our-projects .projects-box{
-  
   width: 15rem;
   padding: 1.25rem;
-  
   background: #D7DBFF;
   border: 0.824543px solid #AABBC4;
   border-radius: 0px 0px 61.8408px 0px;
+ 
+ 
 }
 
+.our-projects .box-div-in{
+  position: relative;
+}
+.our-projects .img-div{
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  background: #FFC0CB;
+  border-radius: 0px 0px 23.8396px 0px;
+}
+.our-projects .img-div 
 .our-projects .projects-box h5{
  padding: 10px;
  font-weight: 600;
@@ -9133,6 +9144,7 @@ section {
   font-size: 0.9rem;
   color: #343434;
 }
+
 
 /* end of project section */
 
