@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,13 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -39,8 +38,6 @@
 <a><strong>A web Application for a library of authentication code that allows users register, download material or codes and interact.</strong></a>
    </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -68,18 +65,21 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Auth_Wiki is a library of authentication code that allows users register, download material and interact.
 
+Hosting link: https://authwiki-teamwombat.netlify.app
+http://35.193.24.21
+
 ## Features
 
 - **User: Unauthenticated**
+
   - Visit the platform to view basic information about it.
   - View and Interact with the documentation.
   - Register to contribute.
@@ -91,27 +91,23 @@ Auth_Wiki is a library of authentication code that allows users register, downlo
   - Able to view example usage.
   - Download code samples.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* Python
-* Django
-* Figma
-* Git
-* Bootstrap
-* JavaScript
+- Python
+- Django
+- Figma
+- Git
+- Bootstrap
+- JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 ### Run Locally
@@ -141,6 +137,7 @@ Activate the virtual environment
 ```bash
 pipenv shell
 ```
+
 pip install -r requirements.text
 
 Create a `.env` file in the same directory as the `settings.py` (`config` folder) with the following contents:
@@ -151,7 +148,7 @@ Create a `.env` file in the same directory as the `settings.py` (`config` folder
 SECRET_KEY=<your-secret-key>
 ```
 
-*Generate a secret key from <https://djecrety.ir/>.*
+_Generate a secret key from <https://djecrety.ir/>._
 
 Run the migrations
 
@@ -169,19 +166,17 @@ python manage.py runserver
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
-* When website is up and running, insert it function here
-_For more examples, please refer to the [Documentation](https://docs.google.com/document/d/1JMyK4SDO66Tbe5y-eS7xEj1emh6zOdzANvlfLntgP5Y/edit?usp=sharing)_
+- When website is up and running, insert it function here
+  _For more examples, please refer to the [Documentation](https://docs.google.com/document/d/1JMyK4SDO66Tbe5y-eS7xEj1emh6zOdzANvlfLntgP5Y/edit?usp=sharing)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Design And Documentation
@@ -189,16 +184,15 @@ _For more examples, please refer to the [Documentation](https://docs.google.com/
 - [x] Backend Build
 - [x] Testing
 - [x] Server Hosting
-    - [ ] Product Feedback
-    - [ ] Changelog
+  - [ ] Product Feedback
+  - [ ] Changelog
 
 <!--See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Any contributions you make are **greatly appreciated**.
@@ -210,20 +204,19 @@ Any contributions you make are **greatly appreciated**.
 5. Open a Pull Request
 
 See [CONTRIBUTING.md](https://github.com/zuri-training/team-wombat/blob/master/CONTRIBUTING.md) for more details
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Active Contributors Contact
 
 <details><summary>Product Designers</summary>
@@ -248,26 +241,24 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+- [Malven's Grid Cheatsheet](https://grid.malven.co/)
+- [Img Shields](https://shields.io)
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/zuri-training/team-wombat.svg?style=for-the-badge
 [contributors-url]: https://github.com/zuri-training/team-wombat/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/zuri-training/team-wombat.svg?style=for-the-badge
@@ -281,5 +272,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/SharedScreenshot.jpg
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
