@@ -192,6 +192,25 @@ body{
         width: 10rem;
         height: 15rem;
     }
+    .box{
+        gap: 20px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
   }
 
 @media (max-width: 700px) {
@@ -206,6 +225,25 @@ body{
     .forgot-password{
         margin-left: 1.5rem;
     }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
   }
   
   @media (max-width: 992px) {
@@ -219,5 +257,47 @@ body{
     }
     .forgot-password{
         margin-left: 5rem;
+    }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .div-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .inner-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  }
+
+  @media (max-width: 1200px) {
+    .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    .img-fluid{
+        width: 35rem;
+        height: 45rem;
+    }
+    .forgot-password{
+        margin-left: 5rem;
+    }
+    .box{
+        gap: 40px;
+    }
+    .form-frame{
+        height: 150vh;
+    }
+    .p-tag button{
+        height: 3rem;
     }
   }
